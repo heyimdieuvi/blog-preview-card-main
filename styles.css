@@ -1,0 +1,29 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+}
+body {
+  background-color: var(--Yellow);
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  place-items: center;
+  height: 100vh;
+  
+}
+
+.image {
+  margin-bottom: 18px;
+}
+
+.box {
+  display: inline-block;
+  background-color: white;
+  padding: 20px;
+  border-radius: 18px;
+}
+.button1 {
+  background-color: var(--Yellow);
+}
+.content {
+  width: 300px;
+}
